@@ -1,0 +1,44 @@
+/* Styles for the header and navbar */
+.header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 10px;
+    color: #fff;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.logout-button {
+    margin-right: 20px;
+}
+
+/* Styles for the user container */
+.user-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for user name and profile photo */
+.user-info p {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Style for profile photo */
+.user-info img {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
